@@ -45,6 +45,7 @@ export const projects: Project[] = [
       width: 1600,
       height: 900,
     },
+    links: { live: "https://wiexora-dev-portfolio.vercel.app/" },
   },
   
   {
