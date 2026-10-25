@@ -23,9 +23,17 @@ export const timelines = ["As soon as possible", "Within 1 month", "1–3 months
 export const contactSchema = z.object({
   name: z.string().trim().min(2, "Please enter your name.").max(100),
   email: z.string().trim().email("Please enter a valid email address.").max(200),
-  projectType: z.enum(projectTypes, { errorMap: () => ({ message: "Choose a project type." }) }),
-  budget: z.enum(budgetRanges, { errorMap: () => ({ message: "Choose a budget range." }) }),
-  timeline: z.enum(timelines, { errorMap: () => ({ message: "Choose a timeline." }) }),
+  
+projectType: z.enum(projectTypes, {
+  error: "Choose a project type.",
+}),
+budget: z.enum(budgetRanges, {
+  error: "Choose a budget range.",
+}),
+timeline: z.enum(timelines, {
+  error: "Choose a timeline.",
+}),
+
   message: z.string().trim().min(20, "Please write at least 20 characters.").max(4000),
   website: z.string().max(0).optional(), // honeypot, must stay empty
   startedAt: z.number().optional(),
