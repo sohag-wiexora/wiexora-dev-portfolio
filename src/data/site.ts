@@ -9,11 +9,16 @@ export const site = {
     "WIEXORA is an independent digital engineering practice: full-stack web development, secure application architecture, cloud setup and AI integration.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 
-  // TODO(owner): set NEXT_PUBLIC_CONTACT_EMAIL in .env.local. While empty, no mailto link is rendered.
-  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
+  // Contact emails
+  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "wiexora.dev@gmail.com",
+  altEmail: "mdsohagchowdhuri690@gmail.com",
+  whatsapp: "+8801611530770",
 
-  // TODO(owner): add verified profile URLs only, e.g. { label: "GitHub", href: "https://github.com/..." }.
-  socials: [] as { label: string; href: string }[],
+  // Verified social profiles
+  socials: [
+    { label: "GitHub", href: "https://github.com/sohag-wiexora" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/sohag-wiexora-90a0193b7" },
+  ],
 
   nav: [
     { label: "Home", href: "/#hero", id: "hero" },

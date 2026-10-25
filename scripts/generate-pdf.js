@@ -950,7 +950,19 @@ const htmlContent = `<!DOCTYPE html>
           <div class="connect-links-grid">
             <div class="connect-link-item">
               <span class="icn">✉️</span>
-              <span>contact@wiexora.com</span>
+              <span>wiexora.dev@gmail.com</span>
+            </div>
+            <div class="connect-link-item">
+              <span class="icn">💬</span>
+              <span>WhatsApp: +8801611530770</span>
+            </div>
+            <div class="connect-link-item">
+              <span class="icn">🐙</span>
+              <span>github.com/sohag-wiexora</span>
+            </div>
+            <div class="connect-link-item">
+              <span class="icn">💼</span>
+              <span>linkedin.com/in/sohag-wiexora</span>
             </div>
             <div class="connect-link-item">
               <span class="icn">🌐</span>
@@ -959,18 +971,6 @@ const htmlContent = `<!DOCTYPE html>
             <div class="connect-link-item">
               <span class="icn">📍</span>
               <span>Kashempur, Gazipur / Dhaka, BD</span>
-            </div>
-            <div class="connect-link-item">
-              <span class="icn">💼</span>
-              <span>bazardor-o9va.vercel.app</span>
-            </div>
-            <div class="connect-link-item">
-              <span class="icn">🏃</span>
-              <span>assinment-6-kohl.vercel.app</span>
-            </div>
-            <div class="connect-link-item">
-              <span class="icn">🏠</span>
-              <span>Kazirhat Baninagar, Lalmonirhat</span>
             </div>
           </div>
         </div>

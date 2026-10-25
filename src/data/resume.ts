@@ -50,8 +50,12 @@ export const resume = {
   avatar: "/images/editorial/formal-portrait-white-background.webp",
   
   contact: {
-    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@wiexora.com",
-    location: "Dhaka, Bangladesh",
+    email: "wiexora.dev@gmail.com",
+    altEmail: "mdsohagchowdhuri690@gmail.com",
+    whatsapp: "+8801611530770",
+    github: "https://github.com/sohag-wiexora",
+    linkedin: "https://www.linkedin.com/in/sohag-wiexora-90a0193b7",
+    location: "Kashempur, Gazipur / Dhaka, Bangladesh",
     portfolio: "https://wiexora-dev-portfolio.vercel.app",
     status: "Available for High-Impact Projects & Global Opportunities",
   },
