@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-// TODO(owner): replace with your own words. This draft makes no claims about history or achievements.
 export function About() {
   return (
     <div className="two">
@@ -9,24 +8,23 @@ export function About() {
           src="/images/editorial/About Me Image.png"
           width={500}
           height={600}
-          alt="Md Sohag Islam — the person behind WIEXORA"
+          alt="Md. Sohag Islam — Founder of WIEXORA"
           className="about-photo"
           sizes="(min-width: 960px) 22rem, 80vw"
         />
-        <p className="mono" style={{ marginTop: "1rem" }}>The person behind WIEXORA</p>
+        <p className="mono" style={{ marginTop: "1rem" }}>
+          <span className="gold">Md. Sohag Islam</span> — The Person Behind WIEXORA
+        </p>
       </div>
       <div className="prose">
         <p>
-          I build web products one careful decision at a time. <strong>Quality</strong> to me means the thing works when
-          inputs are wrong, the interface stays usable on a phone, and the next person can read the code.
+          I am <strong>Md. Sohag Islam</strong>, a Full-Stack Web Developer and Cloud DevOps Engineer pursuing my Diploma in Textile Engineering (7th Semester). I approach digital software the same way an industrial engineer approaches high-precision manufacturing: with an uncompromising focus on quality, system resilience, and process discipline.
         </p>
         <p>
-          I am most interested in problems where reliability and security matter: accounts, forms that handle real
-          data, and workflows that could be improved with automation or AI.
+          At <strong>WIEXORA</strong>, I build scalable web applications using Next.js, TypeScript, React, Node.js, and containerized Docker environments. <strong>Quality</strong> means the application stays resilient when inputs are unexpected, the interface feels fast and fluid across all devices, and the underlying architecture is clean, secure, and maintainable.
         </p>
         <p>
-          <strong>Communication</strong> is written and specific. You will know what is in scope, what it costs, what
-          has been tested and what has not, before and after the work.
+          <strong>Communication</strong> is transparent, written, and structured. Whether building high-impact platforms or architecting cloud workflows, scope, boundaries, deliverables, and timelines are agreed with total clarity before any build begins.
         </p>
       </div>
     </div>
